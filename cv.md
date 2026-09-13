@@ -1,5 +1,7 @@
 # Anastasiya Fishelman
 
+![Main Photo](rsschool-cv/images/profile_pic.png)
+
 Tel Aviv, Israel | +972 53-934-3321 | nestia97@gmail.com | ['LinkedIn'](linkedin.com/in/a-kaloshina) | Discord: nana9js
 
 ===
@@ -32,6 +34,7 @@ Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 ye
 ### QA Engineer
 
 **Zota** | 2023-Present
+![Zota Logo](rsschool-cv/images/zota_logo.png)
 
 - Own end-to-end quality for web and mobile SDK environments, covering frontend, backend, API, security, and Android testing.
 - Build and maintain automated test coverage using modern QA automation tools and practices.
@@ -46,6 +49,7 @@ Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 ye
 ### QA Engineer
 
 **ACD Labs** | 2021-2022
+![ACD Logo](rsschool-cv/images/acd_logo.png)
 
 - Reviewed requirements and performed functional, web, desktop, and cross-platform testing.
 - Created, executed, and maintained test cases based on product requirements and expected behavior.
