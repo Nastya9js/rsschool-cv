@@ -1,21 +1,31 @@
 # Anastasiya Fishelman
 
-Tel Aviv, Israel  
-Phone: +972 53-934-3321  
-Email: nestia97@gmail.com  
-LinkedIn: <https://www.linkedin.com/in/a-kaloshina/>
+Tel Aviv, Israel | +972 53-934-3321 | nestia97@gmail.com | ['LinkedIn'](linkedin.com/in/a-kaloshina) | Discord: nana9js
+
+===
+
+## RS School Goals
+
+My goal is to gain deep knowledge of full-stack development and grow into a Software Development Engineer in Test role.
+
+===
+
+## Core Skills
+
+- **Programming languages:** TypeScript, JavaScript, basic Python, SQL. ([JS&TS Codewars](https://www.codewars.com/users/Nstya9js/completed_solutions))
+
+- **Testing:** Manual testing, automation testing, BDD, shift-left testing, API testing, web testing, mobile testing, frontend testing, backend testing, functional testing, cross-platform testing, security testing, exploratory testing, regression testing, requirements analysis, acceptance criteria review, test cases, defect tracking
+- **Automation frameworks and testing tools:** Playwright, Cypress, Jest, Postman, BDD approach, API testing, UI automation, regression testing, end-to-end testing, functional testing, exploratory testing, security testing basics with OWASP ZAP.
+- **Data and Infrastructure:** SQL, MongoDB, AWS, Docker, GitHub Actions
+- **Tools:** Jira, TestRail, Android Studio, Charles Proxy, OWASP ZAP, Figma
+- **Ways of Working:** Agile/Scrum, cross-functional collaboration, end-to-end ownership, problem analysis, issue investigation
+- **AI-assisted development tools:** Claude Code, ChatGPT, GitHub Copilot.
 
 ## QA Engineer
 
 Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 years of automation experience. Strong background in end-to-end QA ownership for web, mobile SDK, API, backend, frontend, security, and Android environments in fast-paced startup settings. Experienced in building automation frameworks and test suites from scratch, working with microservices-based systems, analyzing requirements, identifying edge cases, and collaborating closely with product and development teams to improve quality before release.
 
-## Core Skills
-
-- **Testing:** Manual testing, automation testing, BDD, shift-left testing, API testing, web testing, mobile/Android testing, SDK testing, frontend testing, backend testing, functional testing, cross-platform testing, desktop testing, security testing, exploratory testing, regression testing, requirements analysis, acceptance criteria review, test cases, defect tracking
-- **Automation and Code:** Playwright, Cypress, TypeScript, JavaScript, Jest, Postman
-- **Data and Infrastructure:** MongoDB, SQL, AWS, Docker, GitHub Actions, microservices architecture
-- **Tools:** Jira, TestRail, Android Studio, Charles Proxy, OWASP ZAP, Figma, Confluence
-- **Ways of Working:** Agile/Scrum, cross-functional collaboration, end-to-end ownership, problem analysis, issue investigation, QA documentation, onboarding support
+===
 
 ## Professional Experience
 
@@ -41,6 +51,8 @@ Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 ye
 - Created, executed, and maintained test cases based on product requirements and expected behavior.
 - Tracked defects in Jira and collaborated with development teams to verify fixes.
 - Supported regression testing and release validation across different product areas.
+
+===
 
 ## Education
 
