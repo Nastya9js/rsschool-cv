@@ -52,7 +52,6 @@ Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 ye
 ### QA Engineer
 
 **Zota** | 2023-Present
-![Zota Logo](images/zota_logo.png)
 
 - Own end-to-end quality for web and mobile SDK environments, covering frontend, backend, API, security, and Android testing.
 - Build and maintain automated test coverage using modern QA automation tools and practices.
@@ -67,7 +66,6 @@ Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 ye
 ### QA Engineer
 
 **ACD Labs** | 2021-2022
-![ACD Logo](images/acd_logo.png)
 
 - Reviewed requirements and performed functional, web, desktop, and cross-platform testing.
 - Created, executed, and maintained test cases based on product requirements and expected behavior.
