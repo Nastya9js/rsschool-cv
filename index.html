@@ -1,11 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anastasiya Fishelman CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="page-header">
+    <div class="container header-layout">
+      <a class="avatar-link" href="#contacts" aria-label="Go to contacts">
+        <img class="avatar" src="images/profile_pic.png" alt="Anastasiya Fishelman avatar">
+      </a>
+      <div class="header-content">
+        <p class="eyebrow">QA Engineer</p>
+        <h1>Anastasiya Fishelman</h1>
+        <p class="intro">
+          Full-Stack QA Engineer with nearly 5 years of manual testing experience and 3 years
+          of automation testing experience.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container page-grid">
+      <aside class="sidebar">
+        <nav class="navigation" aria-label="CV sections">
+          <h2>Navigation</h2>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+
+        <section id="contacts" class="side-section">
+          <h2>Contacts</h2>
+          <ul class="contact-list">
+            <li>Tel Aviv, Israel</li>
+            <li><a href="tel:+972539343321">+972 53-934-3321</a></li>
+            <li><a href="mailto:nestia97@gmail.com">nestia97@gmail.com</a></li>
+            <li><a href="https://linkedin.com/in/a-kaloshina">LinkedIn</a></li>
+            <li><a href="https://github.com/Nastya9js">GitHub</a></li>
+            <li>Discord: nana9js</li>
+          </ul>
+        </section>
+
+      <div class="content">
+        <section id="about" class="content-section">
+          <h2>About Me</h2>
+          <p>
+            I am a dedicated QA professional transitioning into a Software Development
+            Engineer in Test role. My goal is to deepen full-stack development knowledge
+            while applying rigorous testing principles to ensure product quality.
+          </p>
+          <p>
+            I excel at end-to-end QA ownership, building automation frameworks from scratch,
+            and collaborating across teams to identify issues early. I am passionate about
+            continuous learning, emerging technologies, and AI-assisted development workflows.
+          </p>
+        </section>
+
+        <section id="skills" class="content-section">
+          <h2>Skills</h2>
+          <ul class="skill-list">
+            <li><strong>Programming:</strong> TypeScript, JavaScript, basic Python, SQL.</li>
+            <li><strong>Testing:</strong> manual testing, automation testing, BDD, shift-left testing, API testing, web testing, mobile testing, frontend testing, backend testing, functional testing, cross-platform testing, exploratory testing, regression testing.</li>
+            <li><strong>Automation:</strong> Playwright, Cypress, Jest, Postman, UI automation, API automation, end-to-end testing, OWASP ZAP basics.</li>
+            <li><strong>Data and infrastructure:</strong> SQL, MongoDB, AWS, Docker, GitHub Actions.</li>
+            <li><strong>Tools:</strong> Jira, TestRail, Android Studio, Charles Proxy, OWASP ZAP, Figma.</li>
+            <li><strong>Ways of working:</strong> Agile/Scrum, cross-functional collaboration, ownership, issue investigation, requirements analysis.</li>
+            <li><strong>AI-assisted tools:</strong> Claude Code, ChatGPT, GitHub Copilot.</li>
+          </ul>
+        </section>
+
+        <section id="code" class="content-section">
+          <h2>Code Example</h2>
+          <p>
+            Codewars solution:
+            <a href="https://www.codewars.com/kata/50654ddff44f800200000004">Count characters in string</a>
+          </p>
+          <pre><code>export const count = (str: string): Record&lt;string, number&gt; =&gt; {
+  return str.split('').reduce(
+    (acc, char) =&gt; {
+      acc[char] = (acc[char] || 0) + 1;
+      return acc;
+    },
+    {} as Record&lt;string, number&gt;,
+  );
+};</code></pre>
+        </section>
+
+        <section id="experience" class="content-section">
+          <h2>Experience</h2>
+          <article class="job">
+            <div class="job-header">
+              <h3>QA Engineer</h3>
+              <img class="company-logo" src="images/zota_logo.png" alt="Zota logo">
+              <p>Zota | 2023-Present</p>
+            </div>
+            <ul>
+              <li>Own end-to-end quality for web and mobile SDK environments, covering frontend, backend, API, security, and Android testing.</li>
+              <li>Build and maintain automated test coverage using modern QA automation tools and practices.</li>
+              <li>Led the migration from Cypress/JavaScript to Playwright/TypeScript and built the new automation framework from scratch.</li>
+              <li>Review requirements and acceptance criteria before development to identify logic gaps, edge cases, UX issues, and testing risks early.</li>
+              <li>Test microservices-based systems across frontend, backend, API, data, and integration layers.</li>
+              <li>Investigate complex issues using logs, application behavior, API responses, and database checks.</li>
+              <li>Collaborate with developers, product managers, and stakeholders throughout the development and release lifecycle.</li>
+              <li>Onboard QA engineers and created an LMS course and Confluence QA knowledge base.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-header">
+              <h3>QA Engineer</h3>
+              <img class="company-logo" src="images/acd_labs_logo.png" alt="ACD Labs logo">
+              <p>ACD Labs | 2021-2022</p>
+            </div>
+            <ul>
+              <li>Reviewed requirements and performed functional, web, desktop, and cross-platform testing.</li>
+              <li>Created, executed, and maintained test cases based on product requirements and expected behavior.</li>
+              <li>Tracked defects in Jira and collaborated with development teams to verify fixes.</li>
+              <li>Supported regression testing and release validation across different product areas.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="education" class="content-section">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>Belarusian State University:</strong> MSc, Chemistry of Drugs / Cheminformatics.</li>
+            <li><strong>RS School:</strong> JavaScript/TypeScript Course, in progress.</li>
+          </ul>
+        </section>
+
+        <section id="languages" class="side-section">
+          <h2>Languages</h2>
+          <ul>
+            <li>English: Advanced (C1)</li>
+            <li>Russian: Native</li>
+            <li>Hebrew: Conversational (B1)</li>
+          </ul>
+        </section>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container footer-layout">
+      <a href="https://github.com/Nastya9js">GitHub</a>
+      <span>2026</span>
+      <a href="https://rs.school/courses/javascript-ru" aria-label="RS School JavaScript course">
+        <img class="rs-logo" src="images/rsschool_logo.png" alt="RS School logo">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
